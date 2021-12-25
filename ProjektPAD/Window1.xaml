@@ -8,6 +8,7 @@
         Title="Window1" Height="450" Width="800">
     <Grid>
         <Button Content="Dodaj" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="TestLabel" Content="Label" HorizontalAlignment="Left" Margin="102,61,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

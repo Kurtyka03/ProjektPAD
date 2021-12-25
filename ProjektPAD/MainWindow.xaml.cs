@@ -20,6 +20,7 @@ namespace ProjektPAD
     /// </summary>
     public partial class MainWindow : Window
     {
+        //var 
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace ProjektPAD
         private void NewWindow(object sender, RoutedEventArgs e)
         {
             Window1 p = new Window1();
+            p.DataContext = "test";
             p.Show();
         }
 

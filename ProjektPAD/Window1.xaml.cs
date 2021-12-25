@@ -22,6 +22,8 @@ namespace ProjektPAD
         public Window1()
         {
             InitializeComponent();
+            var zmienna = this.DataContext;
+            TestLabel.Content = zmienna;
         }
     }
 }

@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Nowe" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="NewWindow"/>
-        <Button Content="Podglad" HorizontalAlignment="Left" Margin="75,0,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.545,-2.347"/>
-        <Button Content="Wyszukaj" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Wyjscie" HorizontalAlignment="Left" Margin="225,0,0,0" VerticalAlignment="Top" Width="75" Click="Close"/>
+        <Button Content="Nowe" HorizontalAlignment="Left" VerticalAlignment="Top" Width="792" Click="NewWindow" Height="62"/>
+        <Button Content="Podglad" HorizontalAlignment="Left" Margin="0,62,0,0" VerticalAlignment="Top" Width="792" RenderTransformOrigin="-0.545,-2.347" Height="66"/>
+        <Button Content="Wyszukaj" HorizontalAlignment="Left" Margin="0,128,0,0" VerticalAlignment="Top" Width="792" Height="59"/>
+        <Button Content="Wyjscie" HorizontalAlignment="Left" Margin="0,187,0,0" VerticalAlignment="Top" Width="792" Click="Close" Height="58"/>
 
     </Grid>
 </Window>
