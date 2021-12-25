@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <Button x:Name="DodajBtn" Content="Dodaj" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="Dodaj"/>
+        <Button x:Name="DodajBtn" Content="Dodaj" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="Dodaj" IsEnabled="False"/>
         <Label x:Name="TestLabel" Content="Imie" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label x:Name="TestLabel_Copy" Content="Drugie Imie" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.305,2.108"/>
         <Label x:Name="TestLabel_Copy1" Content="Nazwisko" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
