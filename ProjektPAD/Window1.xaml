@@ -7,8 +7,28 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <Button Content="Dodaj" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75"/>
-        <Label x:Name="TestLabel" Content="Label" HorizontalAlignment="Left" Margin="102,61,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="DodajBtn" Content="Dodaj" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="Dodaj"/>
+        <Label x:Name="TestLabel" Content="Imie" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy" Content="Drugie Imie" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.305,2.108"/>
+        <Label x:Name="TestLabel_Copy1" Content="Nazwisko" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy2" Content="Nazwisko Panieńskie" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy3" Content="Imie Matki" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy4" Content="Imie Ojca" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy5" Content="Data Rodzenia" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy6" Content="Psel" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy7" Content="Zdjecie" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TestLabel_Copy8" Content="Plec" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="DodajZdj" Content="Button" HorizontalAlignment="Left" Margin="134,224,0,0" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,65,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,169,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,196,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <RadioButton x:Name="CheckK" Content="K" HorizontalAlignment="Left" Margin="134,255,0,0" VerticalAlignment="Top" Checked="Plec"/>
+        <RadioButton x:Name="CheckM" Content="M" HorizontalAlignment="Left" Margin="224,255,0,0" VerticalAlignment="Top" Checked="Plec"/>
 
     </Grid>
 </Window>

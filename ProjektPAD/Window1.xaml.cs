@@ -22,8 +22,27 @@ namespace ProjektPAD
         public Window1()
         {
             InitializeComponent();
-            var zmienna = this.DataContext;
-            TestLabel.Content = zmienna;
+        }
+
+        private void Plec(object sender, RoutedEventArgs e)
+        {
+            if(CheckK.IsChecked == true || CheckM.IsChecked == true)
+            {
+                DodajBtn.IsEnabled = true;
+            }
+            if(CheckK.IsChecked == true)
+            {
+                CheckM.IsChecked = false;
+            }
+            if (CheckM.IsChecked == true)
+            {
+                CheckK.IsChecked = false;
+            }
+        }
+
+        private void Dodaj(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
