@@ -20,6 +20,10 @@
 >Wyglad aplikacji
 >
 >Opisanie dzialania programu
+>
+>Realizacja wygladu Aplikcaji
+>
+>Napisanie, jak program ma dzialac
 ```
 ```
 >Poprawki:
