@@ -1,0 +1,18 @@
+1) Menu zawiera 4 przyciski
+	- Nowy = otwiera formularz odpowiedzialny za wpisanie nowej osoby do bazy danych
+	- Podglad = wyswietla cala baze danych w nowym oknie
+	- Wyszukaj = pojawia sie przycisk i textbox w ktorym mozemy wyszukac rekord w bazie danych, w razie braku rekordu pokazuje sie "brak"
+	- Wyjscie = po nacisnieciu aplikacja sie wylacza
+2) Nowy
+	- formularz zawierajacy wszystkie dane potrzebne do wpisania
+	- wybor stanowiska (uczen, nauczyciel,pracownik)
+	- po wyborze pojawaia sie dalsz czesc formularza z odpoweidznimi okienkami do wyboru
+	- przycisk dodaj dodaje rekordy do bazy danych oraz zapisuje je w pliku txt
+3) Podglad
+	- wyswietla sie cala baza danych (wszystkie rekordy zapisanie przez uzytkownika)
+4) Wyszukaj
+	- pojawia sie nowe okienko z texboxem i buttonem wyszukaj
+	- po wpisaniu danego rekordu nalezy nacisnac przycisk i funkcja szuka danego rekordu
+	- w razie bledu pojawia sie "brak"
+5) Wyjscie
+	- przycisk pozwala wylaczyc aplikacje

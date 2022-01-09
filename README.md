@@ -13,7 +13,13 @@
 
 ```
 ```
->Wynonane
+>Wynonane:
+>
+>Projekt Aplikacji
+>
+>Wyglad aplikacji
+>
+>Opisanie dzialania programu
 ```
 ```
->Poprawki
+>Poprawki:
