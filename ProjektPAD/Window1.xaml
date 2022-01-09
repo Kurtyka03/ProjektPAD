@@ -19,16 +19,22 @@
         <Label x:Name="TestLabel_Copy7" Content="Zdjecie" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top"/>
         <Label x:Name="TestLabel_Copy8" Content="Plec" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top"/>
         <Button x:Name="DodajZdj" Content="Button" HorizontalAlignment="Left" Margin="134,224,0,0" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,65,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,169,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,196,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="134,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="648"/>
         <RadioButton x:Name="CheckK" Content="K" HorizontalAlignment="Left" Margin="134,255,0,0" VerticalAlignment="Top" Checked="Plec"/>
         <RadioButton x:Name="CheckM" Content="M" HorizontalAlignment="Left" Margin="224,255,0,0" VerticalAlignment="Top" Checked="Plec"/>
+        <Label Content="Stanowisko" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Stanowisko" HorizontalAlignment="Left" Margin="134,279,0,0" VerticalAlignment="Top" Width="120" ContextMenuClosing="Wybor">
+            <ComboBoxItem>Nauczyciel</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Uczen</ComboBoxItem>
+            <ComboBoxItem>Pracownik</ComboBoxItem>
+        </ComboBox>
 
     </Grid>
 </Window>

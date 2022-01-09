@@ -29,13 +29,18 @@ namespace ProjektPAD
         private void NewWindow(object sender, RoutedEventArgs e)
         {
             Window1 p = new Window1();
-            p.DataContext = "test";
             p.Show();
         }
 
         private void Close(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void Wyszukaj(object sender, RoutedEventArgs e)
+        {
+            Wyszukaj p = new Wyszukaj();
+            p.Show();
         }
     }
 }
