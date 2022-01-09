@@ -42,5 +42,11 @@ namespace ProjektPAD
             Wyszukaj p = new Wyszukaj();
             p.Show();
         }
+
+        private void Podglad(object sender, RoutedEventArgs e)
+        {
+            Window2 p = new Window2();
+            p.Show();
+        }
     }
 }
